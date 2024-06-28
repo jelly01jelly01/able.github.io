@@ -1,0 +1,93 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내가 사랑하는 안양</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .gallery a {
+            text-decoration: none;
+            color: #333;
+        }
+        .wide {
+            grid-column: span 3;
+        }
+        .enlarged {
+            grid-column: span 3;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>내가 사랑하는 안양</h1>
+    </header>
+    <div class="container">
+        <section>
+            <h2>안양의 소개와 교육의 변화를 알려드려요</h2>
+            <p>안양은 살기좋은 대한민국의 중심 경기도에 위치한 도시로, 오랜 역사와 문화를 자랑합니다. 
+                이 도시는 현대적인 개발과 자연의 아름다움이 잘 조화된 곳입니다.
+                좋은 환경과 함께 교육에서의 적극적인 지원도 돋보이는 도시로 인공지능 시대에 맞추어 학생들의 역량을 키우는 외부 전문가 수업 활동이
+                최근 이슈입니다. </p>
+        </section>
+        <section>
+            <h2>주요 변화</h2>
+            <ul>
+                <li><strong>안양의 </strong> 주요 교육변화 내용
+                    <li>  2025년부터 인공지능 기술을 적용한 ‘AI 디지털교과서’ 도입</li>
+                        <li>  수학, 영어, 정보 교과 우선 도입 확정</li>
+                            <li> 교사(사람)와 AI보조교사(디지털교과서)가 협력하여 학생 맞춤 수업 제공</li>
+                                <li>  인공지능 기술을 활용하며 인간적으로 지도하는 선도교사 집중 육성</li>
+                                    <li> 2023년 7개 교육청에서 300개 디지털 선도학교 운영 예정</li>
+                <li><strong>안양의 멋진 환경인 중앙공원:</strong> 도심 속에서 휴식을 취할 수 있는 큰 공원입니다.</li>
+                <li><strong>평촌 중앙공원:</strong> 가족 단위 방문객들에게 인기가 많은 곳입니다.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>안양의 모습</h2>
+            <div class="gallery">
+                <a href="https://www.goeay.kr/indeogwon-h/main.do" target="_blank">
+                    <img src="https://th.bing.com/th/id/OIP.ctGH8054uR-fWWYdme71gQHaEt?w=255&h=180&c=7&r=0&o=5&pid=1.7" alt="인덕원고">
+                    <p>자랑스런 인덕원고</p>
+                </a>
+                <img src="2.jpg" alt="중앙시장 2">
+                <img src="3.jpg" alt="학운공원 3" class="wide">
+                <img src="4.jpg" alt="학운공원 4" class="wide enlarged">
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+>
